@@ -6,22 +6,18 @@
 ## Installation
 Install the package using pip:
 
-\`\`\`bash
 pip install thapar-102218071-topsis
-\`\`\`
 
 ## Usage
 
 You can use the package from the command line by running:
 
-\`\`\`bash
 python -m my_topsis_package.__main__ <InputDataFile> <Weights> <Impacts> <ResultFileName>
-\`\`\`
+
 
 ### Example
-\`\`\`bash
 python -m my_topsis_package.__main__ 102218071.csv "1,1,1,1,1" "+,+,+,+,+" st.csv
-\`\`\`
+
 
 ### Parameters
 1. **InputDataFile**: The path to the CSV file containing the dataset.
